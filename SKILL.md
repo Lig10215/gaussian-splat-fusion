@@ -4,7 +4,7 @@ description: "对齐、融合、修复并验证已有的 3D Gaussian Splatting (
 agent_created: true
 metadata:
   origin: "original work, first authored as a local Codex skill; adapted for WorkBuddy"
-  license: "MIT"
+  license: "GPL-3.0"
   adapted_at: "2026-11-10"
 ---
 
