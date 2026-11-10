@@ -1,0 +1,34 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model / render artifacts generated during real jobs
+*.ply
+*.npz
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.report.json
+*.provenance.npz
+*.scores.npy
+*.indices.npy
+*.trace.json
+*.support.json
+*.material.json
+audit.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

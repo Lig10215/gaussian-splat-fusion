@@ -1,0 +1,28 @@
+{
+  "example_only": true,
+  "model": "PINHOLE",
+  "position": [
+    0,
+    -8,
+    5
+  ],
+  "target": [
+    0,
+    0,
+    0
+  ],
+  "up": [
+    0,
+    0,
+    1
+  ],
+  "width": 640,
+  "height": 480,
+  "f": 560,
+  "near": 0.01,
+  "background": [
+    0.12,
+    0.12,
+    0.12
+  ]
+}

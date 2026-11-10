@@ -1,0 +1,4 @@
+interface:
+  display_name: "高斯泼溅空地融合"
+  short_description: "Fuse, repair and verify Gaussian splat scenes"
+  default_prompt: "使用 $gaussian-splat-fusion 对齐并融合这些高斯泼溅模型，保留指定底稿和结构，完成同机位与遮挡验证后输出新模型。"

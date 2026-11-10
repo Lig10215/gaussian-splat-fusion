@@ -1,0 +1,120 @@
+{
+  "example_only": true,
+  "model": "results/Fused_v1.ply",
+  "provenance": "results/Fused_v1.provenance.npz",
+  "surfaces": [
+    {
+      "id": "plaza_floor_example",
+      "frame": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "polygon_xy": [
+        [
+          -2,
+          -2
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "planes": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "interior_margin": 0.12,
+      "hidden_sources": [
+        1,
+        2,
+        3
+      ],
+      "hidden_below": 0.15,
+      "hidden_region": {
+        "bbox": [
+          [
+            -2,
+            -2,
+            -3
+          ],
+          [
+            2,
+            2,
+            -0.15
+          ]
+        ]
+      },
+      "probe_step": 0.05,
+      "probe_depth": 0.4
+    }
+  ],
+  "tests": [
+    {
+      "id": "plaza_oblique_example",
+      "surface": "plaza_floor_example",
+      "mode": "recolor",
+      "camera": {
+        "model": "PINHOLE",
+        "position": [
+          0,
+          -8,
+          5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "width": 640,
+        "height": 480,
+        "f": 560,
+        "near": 0.01,
+        "background": [
+          0.12,
+          0.12,
+          0.12
+        ]
+      },
+      "min_pixels": 200,
+      "tolerance": 0.00784313725490196,
+      "allowed_changed_pixels": 0,
+      "mask_erosion_pixels": 0
+    }
+  ]
+}

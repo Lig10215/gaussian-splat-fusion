@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "output": "results/Fused_v1.ply",
+  "frame": {
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "basis": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "default_owner": "aerial_base",
+  "bound_covariance": true,
+  "inputs": [
+    {
+      "id": "aerial_base",
+      "path": "inputs/edited_aerial_base.ply",
+      "opacity": "logit",
+      "scale": "log",
+      "quaternion": "wxyz"
+    },
+    {
+      "id": "ground1",
+      "path": "inputs/ground1.ply",
+      "transform": "alignment/ground1_to_base.json"
+    },
+    {
+      "id": "ground2",
+      "path": "inputs/ground2.ply",
+      "transform": "alignment/ground2_to_base.json"
+    },
+    {
+      "id": "ground3",
+      "path": "inputs/ground3.ply",
+      "transform": "alignment/ground3_to_base.json"
+    }
+  ],
+  "ownership": [
+    {
+      "name": "ground1_shrine_detail_example",
+      "owner": "ground1",
+      "priority": 10,
+      "bbox": [
+        [
+          -2,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          2.4
+        ]
+      ],
+      "ceiling": {
+        "planes": [
+          [
+            0,
+            0,
+            2.5
+          ]
+        ],
+        "margin": 0.05,
+        "minimum_sigma": 0.000001
+      }
+    },
+    {
+      "name": "ground2_first_floor_room_example",
+      "owner": "ground2",
+      "priority": 20,
+      "bbox": [
+        [
+          0.1,
+          0,
+          0.1
+        ],
+        [
+          2,
+          2,
+          2.4
+        ]
+      ],
+      "ceiling": {
+        "planes": [
+          [
+            0,
+            0,
+            2.5
+          ]
+        ],
+        "margin": 0.05
+      }
+    },
+    {
+      "name": "ground3_basement_example",
+      "owner": "ground3",
+      "priority": 30,
+      "bbox": [
+        [
+          -2,
+          0,
+          -2.5
+        ],
+        [
+          2,
+          2,
+          -0.15
+        ]
+      ],
+      "ceiling": {
+        "planes": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "margin": 0.08
+      }
+    }
+  ]
+}

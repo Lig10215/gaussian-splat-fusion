@@ -1,0 +1,74 @@
+{
+  "example_only": true,
+  "frame": {
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "basis": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "polygon_xy": [
+    [
+      -2,
+      -2
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      -2,
+      2
+    ]
+  ],
+  "planes": [
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "step": 0.03,
+  "normal_sigma": 0.002,
+  "layer_offsets": [
+    [
+      0,
+      0,
+      -0.02
+    ],
+    [
+      0.015,
+      0.015,
+      -0.035
+    ]
+  ],
+  "measured_color": [
+    0.42,
+    0.42,
+    0.4
+  ],
+  "opacity_logit": 10,
+  "max_points": 500000,
+  "measurement_evidence": "EXAMPLE ONLY: replace with surveyed slab elevation, dimensions and sampled source color; preserve actual stair openings"
+}
