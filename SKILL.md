@@ -3,7 +3,8 @@ name: gaussian-splat-fusion
 description: "对齐、融合、修复并验证已有的 3D Gaussian Splatting (3DGS) PLY 模型，用于航拍与地面采集的空地融合建模，以及室内细节恢复、重复表面、漂浮物、透明屋顶/楼板修复和同机位遮挡验证。当用户提到「空地融合、高斯泼溅、Gaussian Splat、3DGS、PLY 模型融合、航拍与地面模型配准、模型修复、重影/浮影、透屋顶、恢复室内细节」或要求把多份高斯模型按指定底稿合并成新 PLY 时使用。仅负责模型融合与局部修复；不从照片训练/重建缺失几何，也不转换 CUDA 应用。Align, fuse, repair and verify existing 3D Gaussian splat PLY models from aerial and ground captures."
 agent_created: true
 metadata:
-  origin: "imported from a local Codex skill, adapted for WorkBuddy"
+  origin: "original work, first authored as a local Codex skill; adapted for WorkBuddy"
+  license: "MIT"
   adapted_at: "2026-11-10"
 ---
 

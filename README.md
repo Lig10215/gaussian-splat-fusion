@@ -69,6 +69,6 @@ scripts/                 13 个 Python 模块 + CLI + 自检，纯 CPU
 
 ## 来源与许可
 
-本技能由本地 Codex skill 导入，并针对 WorkBuddy 补充了中文触发词与元数据；算法、脚本与参考文档保持原样。`scripts/selfcheck.py` 在 Python 3.13 + NumPy 2.5 / SciPy 1.18 / Numba 0.68 环境下 13 项检查全部通过。
+本技能为作者原创作品，最初以本地 Codex skill 形式编写，后适配到 WorkBuddy（补充中文触发词与元数据）；算法、脚本与参考文档均为原创。`scripts/selfcheck.py` 在 Python 3.13 + NumPy 2.5 / SciPy 1.18 / Numba 0.68 环境下 13 项检查全部通过。
 
-仓库当前未附带 LICENSE。若原技能来自第三方，公开发布前请先确认其授权条款。
+本仓库采用 [MIT License](LICENSE) 开源，Copyright (c) 2026 Lig10215。允许商用、修改、再分发乃至闭源使用，只需在副本中保留版权与许可声明；软件按「原样」提供，不附带任何明示或默示担保。
