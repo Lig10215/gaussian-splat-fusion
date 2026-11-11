@@ -4,6 +4,14 @@ Align, fuse, repair and verify existing 3D Gaussian Splatting (3DGS) PLY models,
 
 以用户指定的底稿为坐标与编辑基准，把航拍、地面等多份高斯模型的可靠部分融合成可追溯的新 PLY，并做配准、局部修复与同机位 / 遮挡验证。全部工具为纯 CPU 实现（AMD / NVIDIA 显卡均可，无需 CUDA），但这**不代表**已实现 GPU 加速。
 
+## 下载 Windows 安装包
+
+最新版 **[v1.0.1](https://github.com/Lig10215/gaussian-splat-fusion/releases/tag/v1.0.1)**：[GaussianSplatFusion-1.0.1-Win64-Setup.exe](https://github.com/Lig10215/gaussian-splat-fusion/releases/download/v1.0.1/GaussianSplatFusion-1.0.1-Win64-Setup.exe)（Windows 64 位，65.3 MiB）
+
+SHA256：`4003af6afea63be2cfbf2a81964426837ebd3e362cb72a292c976ba20ce24087`
+
+下载后可用 `certutil -hashfile <文件名> SHA256` 核对完整性。历史版本与完整说明见 [Releases](https://github.com/Lig10215/gaussian-splat-fusion/releases)。
+
 ## 能做什么 / 不能做什么
 
 | 支持 | 不支持 |
