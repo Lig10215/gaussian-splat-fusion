@@ -6,9 +6,12 @@ Align, fuse, repair and verify existing 3D Gaussian Splatting (3DGS) PLY models,
 
 ## 下载 Windows 安装包
 
-最新版 **[v1.0.1](https://github.com/Lig10215/gaussian-splat-fusion/releases/tag/v1.0.1)**：[GaussianSplatFusion-1.0.1-Win64-Setup.exe](https://github.com/Lig10215/gaussian-splat-fusion/releases/download/v1.0.1/GaussianSplatFusion-1.0.1-Win64-Setup.exe)（Windows 64 位，65.3 MiB）
+最新版 **[v1.0.3](https://github.com/Lig10215/gaussian-splat-fusion/releases/tag/v1.0.3)**：[GaussianSplatFusion-1.0.3-Win64-Private-Feishu-Setup.exe](https://github.com/Lig10215/gaussian-splat-fusion/releases/download/v1.0.3/GaussianSplatFusion-1.0.3-Win64-Private-Feishu-Setup.exe)（Windows 64 位，65.3 MiB）
 
-SHA256：`4003af6afea63be2cfbf2a81964426837ebd3e362cb72a292c976ba20ce24087`
+SHA256：`acabbd6ff46d7e73624d5bd3739b173754acdfa08ed8f7225ac3e80dcb44d215`
+
+> 提示：v1.0.3 为 Private-Feishu 私用版，包内旧的飞书机器人配置已于发布前
+> 轮换失效；不需要报错上传功能的用户可改用 [v1.0.1 公开发布版](https://github.com/Lig10215/gaussian-splat-fusion/releases/tag/v1.0.1)。
 
 下载后可用 `certutil -hashfile <文件名> SHA256` 核对完整性。历史版本与完整说明见 [Releases](https://github.com/Lig10215/gaussian-splat-fusion/releases)。
 
